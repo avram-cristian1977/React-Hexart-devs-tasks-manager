@@ -1,0 +1,49 @@
+body{
+    font-family: 'Barlow Condensed', sans-serif;
+   
+    color: rgb(188, 218, 229);
+    font-size: 15px;
+}
+span{
+    margin: 10px;
+}
+.day{
+    margin-right: 2px;
+}
+.daySuphix{
+    margin: 0;
+}
+
+
+
+
+
+
+@media screen and (max-width: 900px) {
+    .dateAndTimeWrapper{
+       
+        position: absolute;
+        left:400px;
+        top:50px;
+
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .dateAndTimeWrapper{
+        
+        position: absolute;
+        left:300px;
+        top:50px;
+
+    }
+}
+
+@media screen and (max-width: 800px) {
+  
+    .dateAndTimeWrapper{
+        
+        display: none;
+
+    }
+}

@@ -1,0 +1,17 @@
+.greeting{
+    position: absolute;
+    font-size: 70px;
+    width: 200px;
+    animation-delay: 2s;
+    animation: delayGreet  0.5s ease forwards;
+    left:0px;
+    opacity: 0.1;
+}
+
+@keyframes delayGreet {
+  
+    100%{
+        opacity: 1;
+        left: calc(50% - 100px);
+    }
+}

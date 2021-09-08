@@ -1,0 +1,42 @@
+[
+    {"id":1, 
+        "title":"Local Artist Gallery", 
+        "budget":2000, 
+        "type":"landing Site", 
+        "delivery":5,
+        "frontend":true,
+        "backend":false,
+        "qa":true
+    }, 
+    {
+        "id":2, 
+        "title":"New Manufacturer Products", 
+        "budget":2300, 
+        "type":"e-commerce app", 
+        "delivery":3,
+        "frontend":true,
+        "backend":true,
+        "qa":true
+    }, 
+    {
+        "id":3, 
+        "title":"C-bank payment feature",
+         "budget":15000, 
+         "type":"financial algorithm", 
+         "delivery":7,
+         "frontend":false,
+        "backend":true,
+        "qa":true
+        },
+    {
+        "id":4, 
+        "title":"chocolate commercial", 
+        "budget":450, 
+        "type":"banner", 
+        "delivery":1,
+        "frontend":true,
+        "backend":false,
+        "qa":false
+    }
+    
+]

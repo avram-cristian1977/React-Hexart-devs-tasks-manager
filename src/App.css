@@ -1,0 +1,180 @@
+.App {
+  text-align: center;
+  background-image: url(assets/bxy.jpg);
+  
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 3500px;
+}
+
+.typing-demo {
+  width: 29ch;
+  animation: typing 2s steps(30), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 3em;
+  color: rgb(188, 218, 229);
+  margin: auto;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+
+.logoWrapper {
+  display: flex;
+  padding: 2px;
+  justify-content: space-between;
+}
+
+.logoutBtn {
+  height: fit-content;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  margin: 30px;
+  color: rgb(188, 218, 229);
+  background-color: rgba(33, 135, 153, 0.205);
+  border: none;
+  border-radius: 5px;
+}
+
+.logoutBtn:hover {
+  background-color: rgb(188, 218, 229);
+  color: rgb(33, 135, 153);
+}
+
+.logoutBtn:active {
+  transform: translate(1px, 1px);
+}
+
+.logoWrapper img {
+  width: 400px;
+  margin: 30px;
+
+}
+
+.welcomeMsg {
+  color: white;
+  background-color: rgba(33, 135, 153, 0.205);
+  width: 700px;
+  margin: auto;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 200px;
+  font-size: 15px;
+}
+
+.loginForm {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: rgba(33, 135, 153, 0.205);
+  width: 280px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  left: calc(50% - 140px);
+  top: -250px;
+  animation: drop 0.5s ease forwards;
+  animation-delay: 2s;
+}
+
+.loginFormFade {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: rgba(33, 135, 153, 0.205);
+  width: 400px;
+  top: 270px;
+  padding: 5px;
+  border-radius: 5px;
+  left: calc(50% - 200px);
+  animation: toRight 0.5s ease forwards;
+
+
+}
+
+@keyframes drop {
+  40% {
+    transform: translateY(550px)
+  }
+
+  60% {
+    transform: translateY(500px)
+  }
+
+  80% {
+    transform: translateY(520px)
+  }
+
+  100% {
+    transform: translateY(500px)
+  }
+}
+
+@keyframes toRight {
+  0% {
+    transform: translateX(0px)
+  }
+
+  100% {
+    transform: translateX(500px);
+    opacity: 0;
+  }
+}
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .App {
+    min-height: 15500px;
+  }
+}

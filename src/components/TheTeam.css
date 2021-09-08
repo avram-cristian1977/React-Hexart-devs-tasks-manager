@@ -1,0 +1,242 @@
+.devs-container {
+    background-color: rgba(33, 135, 153, 0.205);
+    border-radius: 10px;
+    max-width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: left;
+    font-size: 15px;
+}
+
+.socialMedia span {
+    margin-right: 10px;
+}
+
+
+.dev-card {
+    background-color: rgba(5, 89, 104, 0.4);
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin: 5px;
+    min-width: 250px;
+    margin: 20px;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    color: rgb(188, 218, 229);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+ 
+}
+
+
+.dev-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px 5px 50px 5px;
+    margin-left: 10px;
+}
+
+.flag {
+    display: inline-block;
+    width: 25px;
+    margin: 0 0 5px 5px
+
+}
+
+
+.devsTeamTitle {
+    color: rgb(188, 218, 229);
+    background-color: rgba(33, 135, 153, 0.205);
+    width: fit-content;
+    margin: auto;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    margin-top: 50px;
+    font-family: 'Barlow Condensed', sans-serif;
+    margin-bottom: 50px;
+}
+
+.addToProjectBtn {
+    background-color: (188, 218, 229);
+    border: none;
+    border-radius: 50px 5px 5px 5px;
+    padding: 20px 20px 10px 15px;
+}
+
+.dev-role {
+    width: 220px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+}
+.dev-role div{
+    text-align: left;
+   
+}
+.socialMedia span{
+margin-left: 0 ;
+}
+
+.plusFaIcon {
+    margin-left: 10px;
+    color: rgba(33, 135, 153);
+}
+
+
+
+
+
+
+
+
+
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 290px;
+  height: 260px;
+  perspective: 1000px;
+  margin:10px;
+  
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.rating{
+    color: rgb(188, 218, 229);
+    font-size: 20px;
+   
+    
+}
+
+.devImgWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flip-card-front {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    background-color: rgba(5, 89, 104, 0.4);
+    color: rgb(188, 218, 229);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.flip-card-back {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  background:transparent;
+  color: rgb(188, 218, 229);
+  transform: rotateY(180deg);
+  border-radius: 10px;
+}
+
+.devCardAction{
+    display: flex;
+}
+.devCardAction button{
+    margin: 0 5px 0 5px;
+}
+
+.dev-data{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 10px;
+}
+.dev-data>div{
+    text-align: left;
+}
+
+.addDevBtn{
+    font-size: 20px;
+    background-color: rgb(17, 33, 43);
+    color:white;
+    padding: 5px 10px 5px 10px;
+    border:none;
+    border-radius: 5px;
+
+}
+
+.ratingDevsChart{
+    width:40%
+}
+
+.wagesDevsChart{
+    width: 40%;
+  
+    
+}
+
+
+.charts{
+    display: flex;
+    justify-content: space-around;
+}
+
+.showDevsRatingsBtn, .showDevsRatingsBtn{
+    color: rgb(188, 218, 229);
+    background-color: rgba(33, 135, 153, 0.205);
+    width: 200px;
+    margin: auto;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    margin-top: 50px;
+    font-family: 'Barlow Condensed', sans-serif;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    border: none;
+    margin-right: 20px;
+}
+
+.showDevsRatingsBtn:active, .showDevsRatingsBtn:active{
+   transform: translate(2px, 2px);
+}
+
+.showDevsRatingsBtn:hover, .showDevsRatingsBtn:hover{
+    background-color: rgb(188, 218, 229);
+    color: rgba(33, 135, 153);
+ }
+

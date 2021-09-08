@@ -1,0 +1,119 @@
+.planTitle{
+    color: rgb(188, 218, 229);
+    background-color: rgba(33, 135, 153, 0.205);
+    width: fit-content;
+    margin: auto;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.plan-container {
+    background-color: rgba(33, 135, 153, 0.205);
+    border-radius: 10px;
+    max-width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    height: 200px;
+    
+}
+
+.selectedContract{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    height: 10px;
+    margin: auto;
+    
+}
+
+.selectedTeam{
+    background-color: rgba(33, 135, 153, 0.205);
+    border-radius: 10px;
+    max-width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 20px;
+    padding:10px
+}
+
+.upBtn{
+    
+    color: rgb(188, 218, 229);
+    background-color: rgb(14, 54, 61);
+  margin-bottom: 10px;
+ 
+    border-radius: 5px;
+  
+    font-family: 'Barlow Condensed', sans-serif;
+  
+    border: none;
+  
+}
+
+.upBtn:hover{
+    background-color: rgb(188, 218, 229);
+    color: rgb(14, 54, 61);
+}
+
+.selectedtasktable{
+    font-size: 20px;
+}
+
+.greenBackground{
+background-color: rgb(13, 121, 85);
+border-radius: 5px;
+
+}
+.greenBackground2{
+    background-color: rgb(13, 121, 85);
+    border-radius: 5px;
+}
+
+.redBackground{
+    background-color: rgb(124, 55, 55);
+    border-radius: 5px;
+}
+
+.whiteText{
+    color: rgb(188, 218, 229);
+}
+
+.greenText{
+    color: green;
+}
+
+.redText{
+    color: red;
+}
+
+.planAction {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+    
+}
+
+.planAction button{
+    color: rgb(188, 218, 229);
+    background-color: rgba(33, 135, 153, 0.205);
+    width: 200px;
+    margin: auto;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    margin-top: 50px;
+    font-family: 'Barlow Condensed', sans-serif;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    border: none;
+    margin-right: 20px;
+}

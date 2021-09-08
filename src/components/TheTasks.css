@@ -1,0 +1,96 @@
+.tasksTable {
+    background-color: rgba(33, 135, 153, 0.205);
+    border-radius: 10px;
+    min-width: 55%;
+    margin: auto;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    color: rgb(188, 218, 229);
+}
+
+.tasksTable tbody {
+    padding: 20px;
+}
+
+.tasksTable td,
+th {
+    text-align: left;
+    padding: 2px 5px 2px;
+}
+
+tbody {
+    border-radius: 5px;
+
+}
+
+.contractBtn {
+    background-color: rgb(1, 32, 37);
+    border: none;
+    font-size: 20px;
+    border-radius: 2px;
+    color: rgb(188, 218, 229);
+}
+
+tr:nth-child(even) {
+    background-color: rgba(5, 89, 104, 0.4);
+}
+
+th {
+    background-color: rgba(2, 51, 59, 0.4);
+    
+   
+}
+
+td:nth-child(odd) {
+    background-color: none;
+}
+
+td:nth-child(7), td:nth-child(8) ,td:nth-child(9) {
+   text-align: center;
+}
+th:nth-child(1){
+    border-radius:  10px 0 0 0px;
+    
+
+}
+tr:last-child td:nth-child(1){
+    
+    border-radius:  0px 0 0px 10px;
+}
+tr:last-child td:last-child{
+ 
+    border-radius:  0px 0 10px 0px;
+}
+
+th:last-child {
+    border-radius:  0px 20px 0 0px;
+}
+th,
+td {
+    text-align: center;
+    
+}
+
+tr:hover{
+    background-color: rgb(188, 218, 229, 0.5);
+    color: rgb(1, 32, 37);
+}
+
+.contractBtn:hover {
+    color: rgb(3, 52, 61);
+    background-color: rgb(188, 218, 229);
+}
+
+.tasksTitle {
+    color: rgb(188, 218, 229);
+    background-color: rgba(33, 135, 153, 0.205);
+    width: fit-content;
+    margin: auto;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+
+    margin-bottom: 30px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+

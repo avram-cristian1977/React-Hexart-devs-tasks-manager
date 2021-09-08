@@ -1,0 +1,123 @@
+.menuItems {
+    color: white;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 0;
+}
+
+.menuItems li {
+    text-align: left;
+    margin-top: 10px;
+    min-width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.faIcons {
+    margin-right: 10px;
+}
+
+
+a {
+    text-decoration: none;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 24px;
+    color: rgb(188, 218, 229);
+    
+}
+
+
+.theTeamMenuItem {
+    
+    position: absolute;
+    right: 20px;
+    opacity: 0;
+    animation: moveMenuItemToLeft 0.5s ease forwards;
+    max-width: 200px;
+
+}
+
+.theTeamMenuItem li:hover {
+    background-color: rgb(188, 218, 229);
+}
+
+.theTeamMenuItem a:hover {
+    color: rgb(6, 68, 78);
+    text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 10px #cfcfcf, 0 0 5px #0b333f, 0 0 10px #0b333f, 0 0 15px #0b333f, 0 0 20px #0b333f;
+
+}
+
+.theTasksMenuItem {
+    position: absolute;
+    top: 150px;
+    right: 50px;
+    max-width: 200px;
+    opacity: 0;
+    animation: moveMenuItemToLeft 0.5s ease forwards;
+    animation-delay: 0.5s;
+}
+
+.theTasksMenuItem li:hover {
+    background-color: rgb(188, 218, 229);
+}
+
+.theTasksMenuItem a:hover {
+    text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 10px #cfcfcf, 0 0 5px #0b333f, 0 0 10px #0b333f, 0 0 15px #0b333f, 0 0 20px #0b333f;
+    color: rgb(6, 68, 78);
+}
+
+.thePlanMenuItem {
+    position: absolute;
+    max-width: 200px;
+    right: 100px;
+    top: 190px;
+    opacity: 0;
+    animation: moveMenuItemToLeft 0.5s ease forwards;
+    animation-delay: 1s;
+}
+
+.thePlanMenuItem li:hover {
+    background-color: rgb(188, 218, 229);
+}
+
+.thePlanMenuItem a:hover {
+    text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 10px #cfcfcf, 0 0 5px #0b333f, 0 0 10px #0b333f, 0 0 15px #0b333f, 0 0 20px #0b333f;
+    color: rgb(6, 68, 78);
+}
+
+.menuIcon {
+    background-color: brown;
+}
+
+@keyframes moveMenuItemToLeft {
+    50% {
+        opacity: 1;
+        transform: translateX(-100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(-20px);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .theTeamMenuItem , .theTasksMenuItem, .thePlanMenuItem{
+ right: 0;
+       }
+    
+}
+
+@media screen and (max-width: 600px) {
+.faIcons{
+    display: none;
+}
+.logoWrapper img{
+    
+  width: 50%;
+}
+    
+}

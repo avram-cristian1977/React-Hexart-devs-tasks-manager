@@ -1,0 +1,20 @@
+.authWrapper{
+    display: flex;
+    flex-direction: column;
+   width: 50%;
+    margin: auto;
+}
+
+.emailWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.passwordWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    display: 50%;
+}
